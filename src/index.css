@@ -533,8 +533,8 @@ img {
   flex: 1;
 }
 
-/* Skeleton Pulse Animation */
-.skeleton-pulse {
+/* Skeleton Social Animation */
+.skeleSocial {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.05) 25%, rgba(255, 255, 255, 0.1) 37%, rgba(255, 255, 255, 0.05) 63%);
   background-size: 400% 100%;
   animation: shimmer 1.6s ease-in-out infinite;
@@ -591,16 +591,16 @@ img {
   background: var(--bg-main);
   color: var(--text-muted);
 }
-.pulse-loader {
+.Social-loader {
   display: flex;
   gap: 8px;
 }
-.pulse-bubble {
+.Social-bubble {
   width: 14px;
   height: 14px;
   border-radius: var(--radius-full);
   background: var(--accent);
-  animation: pulseGlow 1.2s ease-in-out infinite;
+  animation: SocialGlow 1.2s ease-in-out infinite;
 }
-.pulse-bubble:nth-child(2) { animation-delay: 0.2s; }
-.pulse-bubble:nth-child(3) { animation-delay: 0.4s; }
+.Social-bubble:nth-child(2) { animation-delay: 0.2s; }
+.Social-bubble:nth-child(3) { animation-delay: 0.4s; }

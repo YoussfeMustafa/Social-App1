@@ -9,10 +9,10 @@ const ProtectedRoute = () => {
   if (isLoading) {
     return (
       <div className="auth-loading-screen">
-        <div className="pulse-loader">
-          <div className="pulse-bubble" />
-          <div className="pulse-bubble" />
-          <div className="pulse-bubble" />
+        <div className="Social-loader">
+          <div className="Social-bubble" />
+          <div className="Social-bubble" />
+          <div className="Social-bubble" />
         </div>
         <p>Securing your session...</p>
       </div>

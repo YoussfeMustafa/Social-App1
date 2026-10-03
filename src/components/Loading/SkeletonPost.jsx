@@ -4,23 +4,23 @@ export const SkeletonPost = () => {
   return (
     <div className="post-card skeleton-card">
       <div className="post-header">
-        <div className="skeleton-avatar skeleton-pulse" />
+        <div className="skeleton-avatar skeleton-Social" />
         <div className="post-header-meta">
-          <div className="skeleton-line line-name skeleton-pulse" />
-          <div className="skeleton-line line-sub skeleton-pulse" />
+          <div className="skeleton-line line-name skeleton-Social" />
+          <div className="skeleton-line line-sub skeleton-Social" />
         </div>
       </div>
       <div className="post-body">
-        <div className="skeleton-line line-full skeleton-pulse" />
-        <div className="skeleton-line line-mid skeleton-pulse" />
-        <div className="skeleton-line line-short skeleton-pulse" />
+        <div className="skeleton-line line-full skeleton-Social" />
+        <div className="skeleton-line line-mid skeleton-Social" />
+        <div className="skeleton-line line-short skeleton-Social" />
       </div>
-      <div className="skeleton-media skeleton-pulse" />
+      <div className="skeleton-media skeleton-Social" />
       <div className="post-actions-bar skeleton-actions">
-        <div className="skeleton-btn skeleton-pulse" />
-        <div className="skeleton-btn skeleton-pulse" />
-        <div className="skeleton-btn skeleton-pulse" />
-        <div className="skeleton-btn skeleton-pulse" />
+        <div className="skeleton-btn skeleton-Social" />
+        <div className="skeleton-btn skeleton-Social" />
+        <div className="skeleton-btn skeleton-Social" />
+        <div className="skeleton-btn skeleton-Social" />
       </div>
     </div>
   );

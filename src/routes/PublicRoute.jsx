@@ -8,12 +8,12 @@ const PublicRoute = () => {
   if (isLoading) {
     return (
       <div className="auth-loading-screen">
-        <div className="pulse-loader">
-          <div className="pulse-bubble" />
-          <div className="pulse-bubble" />
-          <div className="pulse-bubble" />
+        <div className="Social-loader">
+          <div className="Social-bubble" />
+          <div className="Social-bubble" />
+          <div className="Social-bubble" />
         </div>
-        <p>Connecting to Pulse...</p>
+        <p>Connecting to Social...</p>
       </div>
     );
   }
