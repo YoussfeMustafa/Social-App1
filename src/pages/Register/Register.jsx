@@ -81,7 +81,7 @@ const Register = () => {
           <div className="auth-brand-icon">
             <Layers size={32} />
           </div>
-          <h1 className="auth-title">Join Social</h1>
+          <h1 className="auth-title">Join Pulse</h1>
           <p className="auth-subtitle">Create an account to start sharing and connecting</p>
         </div>
 

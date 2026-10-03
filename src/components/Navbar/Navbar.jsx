@@ -65,7 +65,7 @@ const Navbar = () => {
             <div className="brand-icon-wrapper">
               <Layers size={22} className="brand-icon" />
             </div>
-            <span className="brand-text">Social</span>
+            <span className="brand-text">Pulse</span>
             <span className="brand-pill">Hub</span>
           </Link>
 

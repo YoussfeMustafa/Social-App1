@@ -55,7 +55,7 @@ const Login = () => {
           <div className="auth-brand-icon">
             <Layers size={32} />
           </div>
-          <h1 className="auth-title">Welcome to Social</h1>
+          <h1 className="auth-title">Welcome to Pulse</h1>
           <p className="auth-subtitle">Sign in to connect with professionals and peers</p>
         </div>
 
